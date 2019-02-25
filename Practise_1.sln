@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Practise_1", "Practise_1\Practise_1.pyproj", "{A0A16B6C-FBD7-446E-9626-6A85C8AB8D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalSession2", "..\PracticalSession2\PracticalSession2\PracticalSession2.csproj", "{E0E9FA34-639C-4A4E-8851-7DE51BF453B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A16B6C-FBD7-446E-9626-6A85C8AB8D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A16B6C-FBD7-446E-9626-6A85C8AB8D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E9FA34-639C-4A4E-8851-7DE51BF453B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E9FA34-639C-4A4E-8851-7DE51BF453B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E9FA34-639C-4A4E-8851-7DE51BF453B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E9FA34-639C-4A4E-8851-7DE51BF453B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9639EFC3-576C-4B5D-897C-3C018DE09589}
+	EndGlobalSection
+EndGlobal

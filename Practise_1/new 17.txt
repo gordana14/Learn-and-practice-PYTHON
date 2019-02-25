@@ -1,0 +1,22 @@
+fun n_times (f, x, n) =
+if n=0
+then x
+else f(x, n_times(f, x, n-1));
+fun mul (x,y) =
+x
+*y;
+fun sum (x,y) =
+x
++y;
+fun tail(x,y) = tl x;
+fun mul_n_times (x,n) = n_times(mul,
+x, n);
+fun sum_n_times (x,n) = n_times(sum,
+x, n);
+fun tail_n_times (x,n)= n_times(tail,
+x, n);
+fun n_times (f, x, n) =
+if n<=0 then
+raise MyException
+else if n = 1 then x
+else f(x, n_times(f, x, n-1));
